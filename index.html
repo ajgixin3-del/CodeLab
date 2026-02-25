@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Practice Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Code Practice</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#practice">Practice</a>
+        <a href="#random">Random</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h2>Sharpen Your Logic</h2>
+      <p>Minimal place to train algorithmic thinking.</p>
+    </section>
+
+    <section id="practice">
+      <h2>Problems</h2>
+      <ul>
+        <li>Check if string is palindrome</li>
+        <li>Return missing number in array</li>
+        <li>Reverse a string</li>
+      </ul>
+    </section>
+
+    <section id="random">
+      <h2>Random Problem</h2>
+      <button id="randomBtn">Get Random Problem</button>
+      <p id="randomOutput"></p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Built to practice JavaScript logic and algorithms.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formOutput"></p>
+    </section>
+
+    <footer>
+      <p>© 2026 Code Practice</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
